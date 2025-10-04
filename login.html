@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="icon" href="icon.jpg" />
+    <link rel="stylesheet" href="style.css" /> <!-- الاستايل الأساسي -->
+    
+  </head>
+
+  <body>
+    <!-- ===== Navbar ===== -->
+    <div class="navbar">
+      <strong>POT</strong>
+      <a href="com.html">Community</a>
+      <a href="about.html">About</a>
+      <a href="s1h.html">Sezone 1 Hardware</a>
+      <a href="s1s.html">Sezone 1 Software</a>
+      <a href="fac.html">Facebook</a>
+      <a href="login.html" class="active">Login</a>
+      <a href="index .html">Home</a>
+    </div>
+
+    <!-- ===== Login Section ===== -->
+    <section class="login-section">
+      <div class="login-card">
+        <h2>Welcome Back 👋</h2>
+        <p>Please login to continue</p>
+
+        <form action="rate.php" method="post">
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="password"></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+
+          <button class="fristlog" name="submit">Login</button>
+
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+

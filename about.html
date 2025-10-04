@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About-Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.jpg" />
+  </head>
+  <body>
+    <div class="navbar">
+      <strong>POT</strong>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="com.html">Comunity</a>
+      <a href="s1h">Sezone 1 Hardware</a>
+      <a href="s1s">Sezone 1 Software</a>
+      <a href="fac">Facbook</a>
+    </div>
+    <section class="about">
+      <h1>system for team hanen ashry powrpoint</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        repudiandae consequatur nulla sapiente ex optio autem, quis provident
+        consequuntur inventore odio facilis molestiae explicabo, minima
+        voluptate cumque accusantium, aspernatur amet odit vero eum officia vel?
+        Atque quia cupiditate a natus, assumenda temporibus dolore ab nisi
+        eveniet, numquam molestiae facere animi quo sequi vitae nam? Nostrum
+        pariatur nobis excepturi deleniti explicabo? Veritatis vitae facere,
+        nisi placeat doloremque nulla, optio ad minus dignissimos modi veniam
+        quibusdam voluptatibus velit! Suscipit eum eos architecto, ut obcaecati
+        ratione animi eligendi recusandae reprehenderit impedit doloremque cum
+        nam alias ad, voluptatibus eius consequuntur fuga! Voluptatibus, error
+        similique.
+      </p>
+    </section>
+
+    <!-- ===== Contact Form ===== -->
+  <section class="contact">
+    <h2>Report a Problem or Suggest an Upgrade</h2>
+    <form action="about.php" method="post">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="number">Phone Number</label>
+      <input type="number" name="number" id="number" required>
+
+      <label for="problime">Problem</label>
+      <textarea name="problime" id="problime" rows="4" required></textarea>
+
+      <button type="submit" name="submit">Send</button>
+    </form>
+  </section>
+  </body>
+</html>
+<!-- 
+<?php
+$conn = new mysqli('localhost','root','','pot');
+if (isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $number = $_POST['number'];
+    $problime = $_POST['problime'];
+    $sql = mysqli_query($conn,"INSERT INTO about (name,number,problime) VALUES ('$name','$number','$problime')");
+    echo "<h4>Well Done <h4>";
+}
+
+?> -->
+<h4>هنا فى مسدج موحدة بعد ارسال النموذج بتقول لليوسر ويل دن</h4>
+<h4>
+  Well Done
+  <h4></h4>
+</h4>
