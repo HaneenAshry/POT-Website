@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+    <div class="navbar">
+        <strong>POT</strong>
+        <a href="about.html">About</a>
+        <a href="s1h">Sezone 1 Hardware</a>
+        <a href="s1s">Sezone 1 Software</a>
+        <a href="fac">Facebook</a>
+        <a href="com.html">Community</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <!-- Hero Section with Video -->
+    <section class="hero">
+      <video autoplay muted loop class="hero-video">
+        <source src="video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-text">
+        <h1>Welcome to POT</h1>
+        <p>Empowering our Team and Community</p>
+      </div>
+    </section>
+
+
+
+  
+    <!-- <?php
+$conn = new mysqli('localhost','root','','pot');
+$res = mysqli_query($conn,"SELECT * FROM event");
+
+while($row = mysqli_fetch_assoc($res)) {
+    $id = $row['id'];
+    $title = $row['title'];
+    $des = $row['des'];
+    $img = $row['image']; // مسار الصورة
+
+    echo "
+    <div class='menu-card'>        
+        <div class='menu-info'>
+          <h6>#$id</h6>
+            <h3>$title</h3>
+            <p>$des</p>
+            <img src='$img' >
+        </div>
+    </div>
+    ";
+}
+?> -->
+      <!-- Content Section -->
+    <section class="content-section">
+      <h1>Welcome</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores fuga
+        totam aut at et sequi tenetur dicta, doloremque facere consequuntur!
+      </p>
+
+      <h4>هنا هيظهر الايفنتات والبوستات بتاعتنا واهم صفحة هى دى</h4>
+
+      <div class="menu-info">
+        <h6>#1</h6>
+        <h3>عنوان البوست</h3>
+        <p>ده وصف بسيط للمحتوى اللي هيظهر في الصفحة.</p>
+        <div class="menu-card">
+          <img src="event.jpg" alt="Event Image" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
